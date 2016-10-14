@@ -28,7 +28,8 @@ module.exports = React.createClass({
 
     assign(props, {
       ref: 'video',
-      controls: true
+      preload: true,
+      controls: false
     });
 
     return React.createElement(
